@@ -1,0 +1,280 @@
+.header {
+  background-color: #fff;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 35px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.icon-header {
+  height: 25px;
+  width: 25px;
+  margin-right: 40px;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+.header-text {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.auth {
+  font-size: 17px;
+  margin-left: 10px;
+  padding: 0px 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+}
+
+.auth:hover {
+  background-color: grey;
+  color: white;
+}
+
+.register {
+  background-color: black;
+  color: white;
+  padding: 13px 13px;
+}
+
+.login {
+  color: black;
+  padding: 13px 13px;
+}
+
+.nav-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  padding: 11px;
+}
+
+.nav-text:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.topic,
+.content-type {
+  display: flex;
+  gap: 100px;
+}
+
+.topic {
+  padding-right: 10px;
+}
+
+.content-type {
+  padding-left: 10px;
+  border-left: 2px solid rgba(128, 128, 128, 0.2);
+}
+.news {
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+.recent-news {
+  display: flex;
+  list-style-type: none;
+}
+
+.recent-news1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+}
+
+.recent-news1-img {
+  width: 100%;
+  height: auto;
+}
+
+.recent-news1-text {
+  font-weight: 100;
+  max-width: 100%;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.795);
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.recent-news1-footer {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.recent-news1-detail{
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.time{
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.place{
+  padding-left: 10px;
+}
+
+.recent-news2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.recent-news2-img {
+  width: 100%;
+  height: auto;
+}
+
+.recent-news2-text {
+  font-weight: 100;
+  max-width: 100%;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.795);
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.recent-news2-detail{
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.recent-news3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.recent-news3-text {
+  font-weight: 100;
+  max-width: 100%;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.795);
+  margin-top: -21px;
+  margin-bottom: 37px;
+  font-size: 14px;
+}
+
+.recent-news3-footer {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2)
+}
+
+.recent-news3-footer-no {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.recent-news3-detail,
+.recent-news3-title{
+  padding-right: 40px;
+}
+
+.section-title{
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+.weekend-reads {
+  margin-top: 50px;
+}
+
+.weekend-read-section{
+  display: flex;
+  flex-direction: row;
+  max-width: 640px;
+  align-content: center;
+  gap: 15px;
+}
+
+.weekend-read-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.weekend-news-img {
+  width: 640px;
+  height: auto;
+  object-fit: cover;
+}
+
+.weekend-news-text {
+  font-weight: 100;
+  max-width: 100%;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.795);
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.arts-in-motion{
+  background-color: black;
+  background-size:auto;
+}
+
+.arts-in-motion h2{
+  color: #fff;
+}
+
+.arts-in-motion-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.arts-in-motion-img{
+  width: 750px;
+  height: auto;
+  object-fit: cover;
+}
