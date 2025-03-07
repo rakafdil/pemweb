@@ -381,6 +381,83 @@
   color: black;
 }
 
+.big-article-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recent-news1-content:hover .recent-news1-img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.recent-news1-content:hover .recent-news1 {
+  cursor: pointer;
+}
+
+.recent-news1-content:hover .recent-news1-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.recent-news2:hover .recent-news1-img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.recent-news2:hover .recent-news2 {
+  cursor: pointer;
+}
+
+.recent-news2:hover .recent-news2-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.recent-news3-content:hover .recent-news3-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.weekend-read-article:hover .weekend-news-img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.weekend-read-article:hover .recent-news1-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.arts-in-motion-article:hover .arts-in-motion-img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.arts-in-motion-article:hover .big-article-container {
+  cursor: pointer;
+}
+
+.arts-in-motion-article:hover .recent-news1-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container:hover .big-article-img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container:hover .big-article-container {
+  cursor: pointer;
+}
+
+.container:hover .recent-news1-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .arts-in-motion-img {
   width: 100%;
   max-width: 800px;
