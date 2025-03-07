@@ -712,3 +712,13 @@
   border-right: 2px solid rgb(175, 177, 180);
   padding-right: 20px;
 }
+
+.video-content-dis:hover img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.video-content-dis:hover .video-content-text h2 {
+  cursor: pointer;
+  text-decoration: underline;
+}
